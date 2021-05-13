@@ -4,6 +4,8 @@ import 'package:flutter_app3/screens/characters_list/characters_page.dart';
 import 'package:flutter_app3/screens/start_screen/start_screen.dart';
 import 'package:flutter_app3/theme/color_theme.dart';
 
+import 'screens/start_screen/start_screen.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
           scaffoldBackgroundColor: ColorPalette.dark_mode_main_color, fontFamily: "Roboto"),
       home: SafeArea(
         child: Scaffold(
-          body: CharactersPage(),
+          body: StartScreen(),
         ),
       ),
     );
